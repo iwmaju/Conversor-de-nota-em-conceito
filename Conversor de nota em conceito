@@ -1,0 +1,18 @@
+print ("Conversor de nota em conceito")
+
+nota = float (input ("Digite a sua nota:"))
+
+if nota >= 9:
+    print ("Conceito A")
+
+elif nota < 8 and nota >= 7:
+    print ("Conceito B")
+
+elif nota <= 6 and nota >= 5:
+    print ("Conceito C")
+
+elif nota <= 4 and nota >= 2:
+    print ("Conceito D")
+
+else:
+    print ("Conceito F")
